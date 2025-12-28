@@ -1,0 +1,27 @@
+FINAL REPORT TEMPLATE (6 pages)
+
+1. Introduction
+- What is SLAM?
+- Why EKF-SLAM?
+
+2. Motion Model
+- Unicycle model equations
+- Jacobian Fx derivation
+
+3. Measurement Model
+- Range + bearing equations
+- Jacobian H derivation
+
+4. EKF SLAM
+- Prediction step
+- Update step
+- Data association (NN)
+
+5. Results
+- True vs estimated robot path
+- True vs estimated landmarks
+- Convergence plots
+- MSE plot
+- Discussion
+
+6. Conclusion

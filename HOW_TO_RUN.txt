@@ -1,0 +1,45 @@
+===========================================
+        EKF-SLAM PROJECT – HOW TO RUN
+===========================================
+
+1. Create and activate a virtual environment (optional but recommended)
+
+   macOS / Linux:
+       python3 -m venv .venv
+       source .venv/bin/activate
+
+   Windows:
+       python -m venv .venv
+       .\.venv\Scripts\activate
+
+
+2. Install required dependencies
+
+       pip install -r requirements.txt
+
+
+3. Run the simulation
+
+       python main.py
+
+
+4. Output files generated
+
+   • ekf_slam_simulation.gif     – animated SLAM result
+   • slam_video.mp4              – MP4 video output
+   • robot_path.png              – True vs EKF vs Desired path
+   • mse_over_time.png           – Position MSE over time
+   • landmark_scatter.png        – True vs Estimated landmark positions
+   • landmark_errors.png         – Landmark estimation error bars
+   • heading_plot.png            – True vs EKF robot heading
+
+
+5. Notes
+
+   - If slam_video.mp4 fails, install ffmpeg:
+       macOS:  brew install ffmpeg
+       Ubuntu: sudo apt-get install ffmpeg
+       Windows: download from https://ffmpeg.org and add to PATH
+
+   - To rerun simulation after parameter changes, simply run:
+       python main.py
