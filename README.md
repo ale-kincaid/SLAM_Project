@@ -1,5 +1,4 @@
-===========================================
-        EKF-SLAM PROJECT – HOW TO RUN
+EKF-SLAM PROJECT – HOW TO RUN
 ===========================================
 
 1. Create and activate a virtual environment (optional but recommended)
